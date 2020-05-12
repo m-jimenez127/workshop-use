@@ -4,7 +4,9 @@
   "description": "workshop use",
   "main": "lib/index.js",
   "scripts": {
-    "build:commonjs": "babel src --out-dir lib"
+    "build:commonjs": "babel src --out-dir lib",
+    "clean": "rm -fR lib",
+    "build": "npm run clean && npm run build:commonjs"
   },
   "author": "",
   "license": "ISC",
