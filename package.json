@@ -2,7 +2,7 @@
   "name": "@m-jimenez127/workshop-use",
   "version": "0.1.0",
   "description": "workshop use",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
